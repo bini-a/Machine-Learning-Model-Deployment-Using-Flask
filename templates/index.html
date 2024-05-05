@@ -1,0 +1,13 @@
+<html>
+    <body>
+        <h1>Flower Class Prediction</h1>
+        <form action='/predict' method="POST">
+            Sepal Length: <input type='text' name='sepal_length'placeholder='Sepal_Length' required='required'/><br>
+            Sepal Width: <input type='text' name='sepal_width'placeholder='Sepal_Width' required='required'/><br>
+            Petal Length: <input type='text' name='petal_length'placeholder='Petal_Length' required='required'/><br>
+            Petal Width: <input type='text' name='petal_width'placeholder='Petal_Width' required='required'/><br>
+            Class: {{result}} <br>
+            <input type='submit' value='Predict'>
+        </form>
+    </body>
+</html>
